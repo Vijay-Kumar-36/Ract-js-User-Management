@@ -1,0 +1,50 @@
+ h2 {
+     color: white;
+ }
+ 
+ p {
+     color: white;
+ }
+ 
+ body {
+     background-color: whitesmoke;
+ }
+ 
+ .lb {
+     width: 368px;
+     padding: 40px;
+     background: rgba(0, 0, 0, .5);
+     box-sizing: border-box;
+     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+     border-radius: 10px;
+     margin: 20px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .list-box {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ button {
+     width: 100px;
+     color: white;
+     font-size: 16px;
+     text-decoration: none;
+     text-transform: uppercase;
+     overflow: hidden;
+     transition: .5s;
+     letter-spacing: 4px;
+     margin-top: 15px;
+     margin-left: auto;
+     background-color: transparent;
+     border-radius: 5px;
+ }
+ 
+ button:hover {
+     background: #03e9f4;
+     color: #fff;
+     border-radius: 5px;
+     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+ }

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {}
+
+.list {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.list Link {
+    text-decoration: none;
+    color: white;
+}
+
+.list:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 80px #03e9f4;
+}
+
+
+/* body {
+    background-color: aqua;
+} */
+
+.navbar-brand {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
